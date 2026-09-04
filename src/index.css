@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans Devanagari", sans-serif;
+  background: #faf6ee;
+  color: #3d2115;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+.navbar {
+  height: 75px;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #fffaf2;
+  border-bottom: 1px solid #eadcc8;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.logo:first-letter {
+  font-size: 25px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #68452f;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #9d4329;
+}
+
+
+/* ---------------- HERO ---------------- */
+
+.hero {
+  min-height: 470px;
+  padding: 70px 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background:
+    radial-gradient(
+      circle at 85% 50%,
+      rgba(180, 125, 53, 0.15),
+      transparent 30%
+    ),
+    #f5ead8;
+}
+
+.hero-content {
+  max-width: 650px;
+}
+
+.hero-small {
+  font-size: 14px;
+  color: #9b6232;
+  font-weight: 600;
+}
+
+.hero h1 {
+  margin-top: 15px;
+
+  font-size: clamp(48px, 7vw, 82px);
+  line-height: 1.1;
+
+  color: #702b1d;
+}
+
+.hero p {
+  margin-top: 15px;
+
+  font-size: 21px;
+  line-height: 1.8;
+
+  color: #694938;
+}
+
+.search-box {
+  margin-top: 30px;
+
+  width: 380px;
+  max-width: 100%;
+
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 0 18px;
+
+  background: white;
+  border: 1px solid #dfcdb4;
+  border-radius: 30px;
+
+  box-shadow: 0 8px 25px rgba(78, 43, 20, 0.08);
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+
+  width: 100%;
+
+  font-family: inherit;
+  font-size: 15px;
+
+  background: transparent;
+}
+
+.hero-symbol {
+  width: 220px;
+  height: 220px;
+
+  border: 1px solid #c9a66b;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 110px;
+
+  color: #9b6232;
+}
+
+
+/* ---------------- AARTIS ---------------- */
+
+.aartis-section {
+  padding: 80px 8%;
+}
+
+.section-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+
+  margin-bottom: 35px;
+}
+
+.section-heading span {
+  font-size: 14px;
+  color: #a16b39;
+}
+
+.section-heading h2 {
+  margin-top: 5px;
+
+  font-size: 32px;
+  color: #4a281c;
+}
+
+.view-all {
+  border: none;
+  background: none;
+
+  color: #8b3d29;
+  font-size: 15px;
+}
+
+
+/* ---------------- CARD GRID ---------------- */
+
+.aarti-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(220px, 1fr));
+
+  gap: 22px;
+}
+
+
+/* ---------------- CARD ---------------- */
+
+.aarti-card {
+  overflow: hidden;
+
+  background: #fffdf9;
+
+  border: 1px solid #eadcc8;
+  border-radius: 18px;
+
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.aarti-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 15px 35px rgba(74, 40, 28, 0.12);
+}
+
+.card-image {
+  height: 190px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f2e5d2;
+}
+
+.card-image img {
+  width: 130px;
+  height: 130px;
+
+  object-fit: contain;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.deity-name {
+  font-size: 13px;
+  color: #a16b39;
+}
+
+.card-content h3 {
+  margin-top: 6px;
+
+  font-size: 19px;
+  color: #4d291c;
+}
+
+.card-content button {
+  margin-top: 18px;
+
+  border: none;
+  background: none;
+
+  color: #8b3d29;
+  font-size: 14px;
+}
+
+
+/* ---------------- QUOTE ---------------- */
+
+.quote-section {
+  padding: 80px 20px;
+
+  text-align: center;
+
+  background: #eee1ce;
+}
+
+.quote-symbol {
+  font-size: 45px;
+  color: #9b6232;
+}
+
+.quote-section p {
+  margin-top: 15px;
+
+  font-size: 21px;
+  line-height: 2;
+
+  color: #634334;
+}
+
+
+/* ---------------- FOOTER ---------------- */
+
+footer {
+  padding: 35px;
+
+  text-align: center;
+
+  background: #3d2115;
+  color: #f8ead7;
+}
+
+footer p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer span {
+  display: block;
+
+  margin-top: 5px;
+
+  font-size: 12px;
+
+  opacity: 0.7;
+}
+
+
+/* ---------------- MOBILE ---------------- */
+
+@media (max-width: 700px) {
+
+  .navbar {
+    padding: 0 5%;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero {
+    min-height: 500px;
+
+    padding: 60px 7%;
+
+    text-align: center;
+
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 52px;
+  }
+
+  .hero-symbol {
+    display: none;
+  }
+
+  .search-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aartis-section {
+    padding: 55px 6%;
+  }
+
+  .section-heading h2 {
+    font-size: 26px;
+  }
+
+  .view-all {
+    display: none;
+  }
+
+  .aarti-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.read-button {
+  display: inline-block;
+  margin-top: 18px;
+
+  text-decoration: none;
+  color: #8b3d29;
+  font-size: 14px;
+}
+
+.read-button span {
+  margin-left: 5px;
+  transition: 0.2s;
+}
+
+.read-button:hover span {
+  margin-left: 10px;
+}
+
+/* ================================
+   AARTI DETAILS PAGE
+================================ */
+
+.details-page {
+  min-height: 100vh;
+  background: #faf6ee;
+}
+
+
+/* Header */
+
+.details-header {
+  height: 75px;
+
+  padding: 0 7%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #fffaf2;
+  border-bottom: 1px solid #eadcc8;
+}
+
+.back-button {
+  text-decoration: none;
+  color: #70452f;
+
+  font-size: 15px;
+}
+
+.details-logo {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.favorite-button {
+  width: 40px;
+  height: 40px;
+
+  border: 1px solid #dfcdb4;
+  border-radius: 50%;
+
+  background: transparent;
+
+  font-size: 22px;
+  color: #8b3d29;
+}
+
+
+/* Heading */
+
+.aarti-heading {
+  padding: 70px 10%;
+
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  background: #f5ead8;
+}
+
+.details-image {
+  width: 160px;
+  height: 160px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #ead8bd;
+}
+
+.details-image img {
+  width: 120px;
+  height: 120px;
+
+  object-fit: contain;
+}
+
+.aarti-heading p {
+  color: #a16b39;
+  font-size: 15px;
+}
+
+.aarti-heading h1 {
+  margin: 8px 0;
+
+  font-size: 42px;
+  color: #702b1d;
+}
+
+.aarti-heading span {
+  display: inline-block;
+
+  padding: 5px 12px;
+
+  border-radius: 20px;
+
+  background: #ead8bd;
+
+  font-size: 12px;
+  color: #70452f;
+}
+
+
+/* Lyrics */
+
+.lyrics-container {
+  padding: 60px 10%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.lyrics-card {
+  width: 800px;
+  max-width: 100%;
+
+  padding: 45px;
+
+  background: #fffdf9;
+
+  border: 1px solid #eadcc8;
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(74, 40, 28, 0.06);
+}
+
+.lyrics-card h2 {
+  margin-bottom: 30px;
+
+  text-align: center;
+
+  color: #8b3d29;
+  font-size: 25px;
+}
+
+.lyrics {
+  text-align: center;
+
+  color: #4d3428;
+
+  font-size: 19px;
+  line-height: 2.2;
+}
+
+.lyrics p {
+  margin-bottom: 35px;
+}
+
+
+/* Not Found */
+
+.not-found {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+
+  background: #faf6ee;
+}
+
+.not-found a {
+  color: #8b3d29;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .details-header {
+    padding: 0 5%;
+  }
+
+  .details-logo {
+    font-size: 16px;
+  }
+
+  .aarti-heading {
+    padding: 45px 7%;
+
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .aarti-heading h1 {
+    font-size: 32px;
+  }
+
+  .lyrics-container {
+    padding: 35px 5%;
+  }
+
+  .lyrics-card {
+    padding: 25px 18px;
+  }
+
+  .lyrics {
+    font-size: 17px;
+    line-height: 2;
+  }
+}
