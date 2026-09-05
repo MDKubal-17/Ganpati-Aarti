@@ -4,7 +4,7 @@ const aartis = [
     deity: "श्री गणपती",
     title: "सुखकर्ता दुःखहर्ता",
     category: "Ganpati",
-    image: "/images/ganpati.png",
+    image: "public/images/ganpati.png",
     lyrics: [
       `सुखकर्ता दुःखहर्ता वार्ता विघ्नाची।
 नुरवी पुरवी प्रेम कृपा जयाची॥
