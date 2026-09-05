@@ -75,7 +75,7 @@ const aartis = [
     deity: "श्री दुर्गा देवी",
     title: "दुर्गे दुर्घट भारी",
     category: "Devi",
-    image: "/images/durga.png",
+    image: `${import.meta.env.BASE_URL}images/durga.png`,
     lyrics: [
       `दुर्गे दुर्घट भारी तुजविण संसारी।
 अनाथनाथे अंबे करुणा विस्तारी॥,
@@ -108,7 +108,7 @@ const aartis = [
     deity: "श्री विठ्ठल",
     title: "युगे अठ्ठावीस",
     category: "Vitthal",
-    image: "/images/vitthal.png",
+    image: `${import.meta.env.BASE_URL}images/vitthal.png`,
     lyrics: [
       `युगे अठ्ठावीस विटेवरी उभा।
 वामांगी रखुमाई दिसे दिव्य शोभा॥,
@@ -145,7 +145,7 @@ const aartis = [
     deity: "श्री विठ्ठल",
     title: "येई हो विठ्ठले माझे माउली ये",
     category: "Vitthal",
-    image: "/images/vitthal.png",
+    image: `${import.meta.env.BASE_URL}images/vitthal.png`,
     lyrics: [
       `येई हो विठ्ठले माझे माउली ये ।
 येई हो विठ्ठले माझे माउली ये ।
@@ -198,7 +198,7 @@ const aartis = [
     deity: "श्री गणपती",
     title: "उंदरावर बैसोनी दुडदुड तू येसी",
     category: "Ganpati",
-    image: "/images/ganpati.png",
+    image: `${import.meta.env.BASE_URL}images/ganpati.png`,
     lyrics: [
       `उंदरावर बैसोनी दुडदुड तू येसी ।
 हाती मोदक लाडू घेउनियां खासी ॥
@@ -230,7 +230,7 @@ const aartis = [
     deity: "श्री गणपती",
     title: "शेंदुर लाल चढ़ायो",
     category: "Ganpati",
-    image: "/images/ganpati.png",
+    image: ${import.meta.env.BASE_URL}images/ganpati.png`,
     lyrics: [
       `शेंदुर लाल चढ़ायो अच्छा गजमुख को ।
 दोंदिल लाल बिराजे सुत गौरिहर को ।
@@ -260,7 +260,7 @@ const aartis = [
     deity: "श्री गणपती",
     title: "आरती करु तुज मोरया",
     category: "Ganpati",
-    image: "/images/ganpati.png",
+    image: `${import.meta.env.BASE_URL}images/ganpati.png`,
     lyrics: [
       `आरती करु तुज मोरया ।
 मंगळगुणानिधी राजया ।
@@ -285,7 +285,7 @@ const aartis = [
     deity: "श्री गणपती",
     title: "गजानना श्रीगणराया आधी वंदू तुज मोरया",
     category: "Ganpati",
-    image: "/images/ganpati.png",
+    image: `${import.meta.env.BASE_URL}images/ganpati.png`,
     lyrics: [
       `गजानना श्रीगणराया ।
 आधी वंदू तुज मोरया ॥
@@ -311,11 +311,11 @@ const aartis = [
   },
 
   {
-    id: 9,
+    id: 20,
     deity: "श्री गणपती",
     title: "नानापरिमळ दुर्वा शेंदूर शमिपत्रें",
     category: "Ganpati",
-    image: "/images/ganpati.png",
+    image: `${import.meta.env.BASE_URL}images/ganpati.png`,
     lyrics: [
       `नानापरिमळ दुर्वा शेंदूर शमिपत्रें ।
 लाडू मोद्क अन्ने परिपूरित पात्रें ।
@@ -344,7 +344,7 @@ const aartis = [
     deity: "ज्ञानेश्वर महाराज",
     title: "आरती ज्ञानराजा",
     category: "dnyandev",
-    image: "/images/dnyandev.png",
+    image: `${import.meta.env.BASE_URL}images/dnyandev.png`,
     lyrics: [
       `आरती ज्ञानराजा
 महाकैवल्यतेजा, कैवल्यतेजा
@@ -390,7 +390,7 @@ const aartis = [
     deity: "दशावतारांची आरती",
     title: "दशावतारांची आरती",
     category: "Dashavtar",
-    image: "/images/dashavtar.png",
+    image: `${import.meta.env.BASE_URL}images/dashavtar.png`,
     lyrics: [
       `आरती सप्रेम जय जय विठ्ठल परब्रह्म ।
 भक्तसंकटी नानास्वरूपीं स्थापिसी स्वधर्म ॥ धृ. ॥
@@ -437,7 +437,7 @@ const aartis = [
     deity: "श्री दत्त",
     title: "त्रिगुणात्मक त्रिमूर्ती दत्ता हा जाणा",
     category: "Datta",
-    image: "/images/datta.png",
+    image: `${import.meta.env.BASE_URL}images/datta.png`,
     lyrics: [
       `त्रिगुणात्मक त्रिमूर्ती दत्ता हा जाणा |
 त्रिगुणी अवतार त्रैलोक्यराणा |
@@ -475,7 +475,7 @@ const aartis = [
     deity: "श्री हनुमान",
     title: "सत्राणें उड्डाणें हुंकार वदनी",
     category: "Hanuman",
-    image: "/images/hanuman.png",
+    image: `${import.meta.env.BASE_URL}images/hanuman.png`,
     lyrics: [
       `सत्राणें उड्डाणें हुंकार वदनी |
 करि डळमळ भूमंडळ सिंधुजळ गगनीं |
@@ -499,7 +499,7 @@ const aartis = [
     deity: "श्री राम",
     title: "जय जय दीनदयाळा सत्यनारायण देवा ",
     category: "ram",
-    image: "/images/ram.png",
+    image: `${import.meta.env.BASE_URL}images/ram.png`,
     lyrics: [
       `उत्कट साधुनी शिळा सेतू बांधोनी ।
 लिंगदेह लंकापुरी विध्वंसूनी ।
@@ -536,7 +536,7 @@ const aartis = [
     deity: "श्री हनुमान",
     title: "जाहले भजन आम्ही नमितो तव चरण",
     category: "Hanuman",
-    image: "/images/hanuman.png",
+    image: `${import.meta.env.BASE_URL}images/hanuman.png`,
     lyrics: [
       `जाहले भजन आम्ही नमितो तव चरण ।
 वारुनिया विघ्ने देवा रक्षावे दीना ॥धृ॥
@@ -572,7 +572,7 @@ const aartis = [
     deity: "श्री गौरी",
     title: "आरतीगौरीची - भाद्रपद शुद्ध सप्तमीस प्रतिष्ठा",
     category: "Gauri",
-    image: "/images/gauri.png",
+    image: `${import.meta.env.BASE_URL}images/gauri.png`,
     lyrics: [
       `भाद्रपद शुद्ध सप्तमीस प्रतिष्ठा
 अनुराधा नक्षत्र ज्येष्ठा श्रेष्ठा
@@ -604,7 +604,7 @@ const aartis = [
     deity: "श्री सत्यनारायण",
     title: "जय जय दीनदयाळा सत्यनारायण देवा |",
     category: "Satyanarayan",
-    image: "/images/satyanarayan.png",
+    image: `${import.meta.env.BASE_URL}images/satyanarayan.png`,
     lyrics: [
       `जय जय दीनदयाळा सत्यनारायण देवा |
 पंचारति ओंवाळू श्रीपति तुज भक्तिभावा || धृ ||
@@ -653,7 +653,7 @@ const aartis = [
     deity: "धन्य धन्य हो प्रदक्षिणा",
     title: "धन्य धन्य हो प्रदक्षिणा सद्गुरुरायाची",
     category: "Ganpati",
-    image: "/images/ganpati.png",
+    image: `${import.meta.env.BASE_URL}images/ganpati.png`,
     lyrics: [
       `धन्य धन्य हो प्रदक्षिणा सद्गुरुरायाची।
 
@@ -682,11 +682,11 @@ const aartis = [
   },
 
   {
-    id: 6,
+    id: 19,
     deity: "घालीन लोटांगण",
     title: "घालीन लोटांगण वंदीन चरण ।",
     category: "Ghalin lotangan",
-    image: "/images/aarti.png",
+    image: `${import.meta.env.BASE_URL}images/aarti.png`,
     lyrics: [
       `घालीन लोटांगण वंदीन चरण ।
 
