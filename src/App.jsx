@@ -4,7 +4,7 @@ import AartiDetails from "./pages/AartiDetails";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Ganpati-Aarti">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aarti/:id" element={<AartiDetails />} />
