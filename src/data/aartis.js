@@ -4,7 +4,7 @@ const aartis = [
     deity: "श्री गणपती",
     title: "सुखकर्ता दुःखहर्ता",
     category: "Ganpati",
-    image: "/public/images/ganpati.png",
+    image: `${import.meta.env.BASE_URL}images/ganpati.png`,
     lyrics: [
       `सुखकर्ता दुःखहर्ता वार्ता विघ्नाची।
 नुरवी पुरवी प्रेम कृपा जयाची॥
@@ -34,7 +34,7 @@ const aartis = [
     deity: "श्री महादेव",
     title: "लवथवती विक्राळा",
     category: "Mahadev",
-    image: "/images/mahadev.png",
+    image: `${import.meta.env.BASE_URL}images/mahadev.png`,
     lyrics: [
       `लवथवती विक्राळा ब्रह्मांडी माळा।
 वीषे कंठ काळा त्रिनेत्री ज्वाळा॥,
