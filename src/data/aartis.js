@@ -230,7 +230,7 @@ const aartis = [
     deity: "श्री गणपती",
     title: "शेंदुर लाल चढ़ायो",
     category: "Ganpati",
-    image: ${import.meta.env.BASE_URL}images/ganpati.png`,
+    image: `${import.meta.env.BASE_URL}images/ganpati.png`,
     lyrics: [
       `शेंदुर लाल चढ़ायो अच्छा गजमुख को ।
 दोंदिल लाल बिराजे सुत गौरिहर को ।
